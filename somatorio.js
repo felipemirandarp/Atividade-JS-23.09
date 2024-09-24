@@ -1,8 +1,10 @@
-let num = parseInt(prompt("Digite um numero "))
-let i = 0
+let num = 0
+let resultado = 0
 
 do{
+
+    num = parseInt(prompt("Digite um numero:  "))
     resultado +=num 
     
 }while ( num != 0)
-console.log(" "+resultado)
+alert(" "+resultado)
